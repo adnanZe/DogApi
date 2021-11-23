@@ -1,0 +1,30 @@
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+h1 {
+  text-align: center;
+  padding: 100px 0 100px 0;
+}
+
+#btnContainer {
+  width: 150px;
+  height: 600px;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+}
+
+.imgContainer {
+  width: 500px;
+  height: 500px;
+}
+
+img {
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+}
