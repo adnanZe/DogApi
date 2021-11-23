@@ -1,0 +1,23 @@
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 600px;
+}
+
+#image-display {
+    height: 300px;
+    width: 300px;
+    background-position: center;
+    background-size: cover;
+}
