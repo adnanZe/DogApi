@@ -5,6 +5,16 @@ main {
   flex-direction: row;
 }
 
+header {
+  width: 100%;
+  height: 5rem;
+}
+
+.img-logo {
+  background-image: url("./paws.png");
+  height: 5rem;
+}
+
 h1 {
   text-align: center;
   padding: 100px 0 100px 0;
@@ -28,3 +38,5 @@ img {
   height: 500px;
   object-fit: cover;
 }
+
+
